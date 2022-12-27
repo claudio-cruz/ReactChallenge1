@@ -1,7 +1,7 @@
 import css from "../src/App.module.css"
 import Sidebar from "./components/Sidebar"
 import NavBarForm from "./components/NavBarForm"
-import ContentHooks from "./components/ContentHooks";
+import ContentAPI from "./components/ContentAPI";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className={css.App}>
     <NavBarForm/>
     <Sidebar />
-    <ContentHooks />
+    <ContentAPI />
     </div>
   );
 }
